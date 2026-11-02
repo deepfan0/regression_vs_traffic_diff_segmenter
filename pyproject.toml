@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "deepfan0-annotate_jd315"
+name = "deepfan0-regression_vs_traffic_diff_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对标注平台与数据质量工程师·回归集与线上样本的差分相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://deepfan0.github.io"
-Repository = "https://github.com/deepfan0/annotate_jd315"
-Issues = "https://github.com/deepfan0/annotate_jd315/issues"
+Repository = "https://github.com/deepfan0/regression_vs_traffic_diff_segmenter"
+Issues = "https://github.com/deepfan0/regression_vs_traffic_diff_segmenter/issues"
 
 [project.scripts]
-annotate_jd315 = "annotate_jd315:main"
+regression_vs_traffic_diff_segmenter = "regression_vs_traffic_diff_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["annotate_jd315"]
+py-modules = ["regression_vs_traffic_diff_segmenter"]
